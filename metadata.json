@@ -1,0 +1,10 @@
+{
+  "name": "Emergência Brasil - Triagem & Primeiros Socorros",
+  "description": "Guia e assistente inteligente de segurança pública (190, 192, 193, 197, 153, 181), checklist de atendimento e primeiros socorros.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

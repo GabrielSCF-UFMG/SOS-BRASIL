@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- Police Blue -->
+    <linearGradient id="favPolice" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <!-- Fire Flame -->
+    <linearGradient id="favFire" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="60%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <!-- Heart Red -->
+    <linearGradient id="favHeart" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Shield Badge -->
+  <rect width="64" height="64" rx="16" fill="#090d16"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- PM Tactical Shield Outline -->
+  <path d="M 32 8 L 48 15 C 48 30 42 45 32 52 C 22 45 16 30 16 15 Z" 
+        fill="#1e293b" 
+        stroke="url(#favPolice)" 
+        stroke-width="2.5"/>
+
+  <!-- BM Rescue Fire Flame -->
+  <path d="M 32 16
+           C 35 23 42 27 42 35
+           C 42 42 37 47 32 47
+           C 27 47 22 42 22 35
+           C 22 28 27 24 30 18
+           C 31 23 34 26 33 29
+           C 32 26 31 24 32 16
+           Z"
+        fill="url(#favFire)"/>
+
+  <!-- SAMU Red Vital Heart -->
+  <path d="M 32 46
+           C 28 42 21 37 21 30
+           C 21 26 24 23 28 23
+           C 30.5 23 31.5 24.5 32 25
+           C 32.5 24.5 33.5 23 36 23
+           C 40 23 43 26 43 30
+           C 43 37 36 42 32 46
+           Z"
+        fill="url(#favHeart)"
+        stroke="#ffffff"
+        stroke-width="1.2"/>
+
+  <!-- Heartbeat Pulse Line -->
+  <path d="M 23 30 L 27 30 L 29 27 L 31 33 L 33 26 L 35 32 L 37 30 L 41 30"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>
